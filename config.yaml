@@ -35,18 +35,18 @@ monitors:
   - id: docker-github
     name: docker-github
     description: 'docker-hub & github Accelerate.'
-    url: 'docker-github.vitality.us.kg'
+    url: 'https://docker-hub.vitality.us.kg'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: true
 
   - id: docker-hub
     name: docker-hub
     description: 'docker-hub Accelerate.'
-    url: 'docker-hub.vitality.us.kg'
+    url: 'http://docker-hub.vitality.us.kg'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: true
 
   - id: cockpit
     name: cockpit
