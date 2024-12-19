@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: chat-gpt-next-web # unique identifier
-    name: chat-gpt-next-web
+  - id: bj # unique identifier
+    name: bj-newapi
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://chat-gpt-next-web.alterem.us.kg' # URL to fetch
+    url: 'https://bj.v5v6.me' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
