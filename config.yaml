@@ -36,3 +36,4 @@ monitors:
     url: 'https://opensearch-dashboard.vitality.us.kg'
     method: GET
     expectStatus: 200
+    linkable: true
