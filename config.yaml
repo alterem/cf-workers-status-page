@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://cf-status.alterem.us.kg/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -18,38 +18,21 @@ monitors:
   - id: chat-gpt-next-web # unique identifier
     name: chat-gpt-next-web
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://chat-gpt-next-web.alterem.top' # URL to fetch
+    url: 'https://chat-gpt-next-web.alterem.us.kg/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: lobe-chat
-    name: lobe-chat
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://lobe-chat.alterem.top'
+  - id: jxchelian
+    name: jxchelian
+    url: 'https://jxchelian.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: docker-github
-    name: docker-github
-    description: 'docker-hub & github Accelerate.'
-    url: 'https://docker-hub.vitality.us.kg'
-    method: GET
-    expectStatus: 200
-    linkable: true
-
-  - id: docker-hub
-    name: docker-hub
-    description: 'docker-hub Accelerate.'
-    url: 'http://docker-hub.vitality.us.kg'
-    method: GET
-    expectStatus: 200
-    linkable: true
-
-  - id: cockpit
-    name: cockpit
-    url: 'https://cockpit.alterem.top/'
+  - id: opensearch-dashboard
+    name: opensearch-dashboard
+    url: 'https://opensearch-dashboard.vitality.us.kg'
     method: GET
     expectStatus: 200
